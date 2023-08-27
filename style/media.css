@@ -1,0 +1,177 @@
+@media screen and (max-width: 991px) {
+  br {
+    display: none;
+  }
+  .header .container {
+    max-width: 100%;
+    margin: auto;
+    padding: 0px 0px;
+  }
+  .logo {
+    margin-left: 15px;
+  }
+  .navbar-toggler {
+    margin-right: 15px;
+  }
+  .navbar-collapse.show {
+    background: #000;
+    width: 100%;
+    height: 100vh;
+    padding: 0px 15px;
+  }
+  .nav-link {
+    margin: 10px 0px;
+  }
+  .btn {
+    margin: 20px 0px 0px 0px;
+  }
+  .counter-sec {
+    margin: 100px 0px 100px 0px !important;
+  }
+  .service-carousel .owl-nav {
+    position: initial;
+    display: flex;
+    justify-content: center;
+    margin: 30px 0px 0px 0px;
+  }
+  .service-text h4,
+  .service-text p {
+    height: auto;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner-title,
+  .banner-title-out {
+    text-align: center;
+    font-family: MBF Alva;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    line-height: 45px;
+  }
+  .astronut-banner {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .banner-title,
+  .banner-title-out {
+    text-align: center;
+    font-family: MBF Alva;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 45px;
+  }
+  .astronut-banner {
+    width: 70%;
+  }
+  h2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Astrom Fillet;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+  h3 {
+    font-size: 22px;
+    font-family: Alternox;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(
+      287.84deg,
+      #ce0189 29.03%,
+      #ffa803 54.21%,
+      #9d37ed 87.29%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+  }
+  .btn {
+    margin: auto;
+  }
+  .test-client {
+    text-align: center;
+  }
+  .service-sec {
+    padding: 50px 0px;
+  }
+}
+/* after */
+@media screen and (max-width: 991px) {
+  .counter-sec::before,
+  .counter-sec::after {
+    display: none;
+  }
+  .gradient-img {
+    width: 100%;
+  }
+  .gradient-img img {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .marquee {
+    margin: 100px 0px 0px 0px;
+  }
+  .gradient-img3 {
+    display: none;
+  }
+  .portfolio-slide {
+    margin: 50px 0px 0px 0px;
+  }
+  .portfolio-slide .owl-carousel .owl-item img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .form-ass {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  footer {
+    margin: 100px 0px 0px 0px;
+  }
+  footer ul {
+    flex-direction: column;
+  }
+  .footer-po .container {
+    position: initial;
+  }
+  footer li a p {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 401px) {
+  .accordion-header {
+    cursor: pointer;
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px 10px;
+    color: #0f021b;
+    font-family: "Metropolis";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .gradient-img5 {
+    width: 100%;
+    height: 50vh;
+  }
+  .gradient-img4 {
+    width: 100%;
+    height: 50vh;
+  }
+  h3 {
+    margin: 30px 0px 0px 0px;
+  }
+}
